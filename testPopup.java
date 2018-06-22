@@ -50,7 +50,7 @@ class testPopup {
 	    driver.switchTo().window(winHandle);
 	}
 	
-	driver.findElement(By.id("name")).sendKeys("Aditya");
+	driver.findElement(By.id("name")).sendKeys("M");
     driver.findElement(By.id("submit")).click();
     
     
